@@ -18,8 +18,8 @@ Datatables v1.9.4
 Bootstrap v3.1.0
 jQuery v1.10.2
 
-HMVC for modular developed by wiredesignz https://github.com/sfedotoff/codeigniter_hmvc
-Template engine for templating by Phil Sturgeon https://github.com/philsturgeon/codeigniter-template
+1. HMVC for modular developed by wiredesignz https://github.com/sfedotoff/codeigniter_hmvc
+2. Template engine for templating by Phil Sturgeon https://github.com/philsturgeon/codeigniter-template
 
 
 Example
