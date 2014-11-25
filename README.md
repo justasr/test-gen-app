@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 testGen
 ==========
 
@@ -37,3 +38,9 @@ http://www.tester.justinas-ruika.com/ user:password
 
 
 
+=======
+test-gen-app
+============
+
+Test-gen is a test generator that sports 3 types of tests 4 question types, automatic grading, a really simple interface and detailed reports.
+>>>>>>> 05f1b6f776323bd3fa0cf588cbf3cdc3fe2a9248
