@@ -1,0 +1,15 @@
+.test_check_box {
+    margin-right:10px !important;
+}
+
+.question tr,.question td {
+    padding-bottom:10px !important;
+}
+
+.answer-con {
+    display: none;
+}
+
+.nav-horizontal li {
+    float:left !important;
+}

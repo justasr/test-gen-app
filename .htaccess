@@ -1,0 +1,22 @@
+# Use PHP 5.5
+AddHandler application/x-httpd-php55 .php
+
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+	RewriteEngine on
+
+    RewriteCond %{HTTP_HOST} !^www\.
+    RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+	# Send request via index.php
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+
+	<IfModule mod_security.c>
+        # Turn off mod_security filtering.  SMF is a big boy, it does not need its hands held.
+        SecFilterEngine Off
+        # The below probably isn't needed, but better safe than sorry.
+        SecFilterScanPOST Off
+    </IfModule>
